@@ -1,0 +1,14 @@
+name: COVID19_Model_KU
+title: COVID19_Model_KU
+username:
+account: envbioprom
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2078359
+bundleId: 6111410
+url: https://envbioprom.shinyapps.io/COVID19_Model_KU/
+when: 1658228267.03184
+lastSyncTime: 1658228267.03184
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|labelsWebApp.xlsx|paramLoaded.RData|trialReactiveText/app.R|trialReactiveText/exampletranslation.R

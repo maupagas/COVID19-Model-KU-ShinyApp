@@ -1,0 +1,12 @@
+name: COVID19_sample_2lang
+title: COVID19_sample_2lang
+username:
+account: envbioprom
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2086157
+bundleId: 2990918
+url: https://envbioprom.shinyapps.io/COVID19_sample_2lang/
+when: 1586416065.93509
+asMultiple: FALSE
+asStatic: FALSE
