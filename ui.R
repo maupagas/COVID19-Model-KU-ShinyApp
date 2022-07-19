@@ -9,6 +9,11 @@ library(dplyr)
 library(plyr)
 library(reshape2)
 
+if (Sys.getenv("JAVA_HOME")!="")
+  Sys.setenv(JAVA_HOME="")
+library(rJava)
+
+
 source("loadParametersXlsx.R")
 source("newModelCOVID.R")
 source("ratesCOVID.R")

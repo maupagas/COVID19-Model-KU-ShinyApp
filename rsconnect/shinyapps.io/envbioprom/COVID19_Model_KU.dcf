@@ -5,10 +5,10 @@ account: envbioprom
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2078359
-bundleId: 6111410
+bundleId: 6111501
 url: https://envbioprom.shinyapps.io/COVID19_Model_KU/
-when: 1658228267.03184
-lastSyncTime: 1658228267.03184
+when: 1658230783.21978
+lastSyncTime: 1658230783.21978
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .RData|labelsWebApp.xlsx|paramLoaded.RData|trialReactiveText/app.R|trialReactiveText/exampletranslation.R
