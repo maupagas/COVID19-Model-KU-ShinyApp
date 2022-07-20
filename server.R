@@ -169,11 +169,9 @@ server <- function(input, output) {
       #Name of file to load parameters from
       fileName = "pbmCOVID_v2.3.xlsx"
       
-      #1. Load General Parameters
-      GenParam <- read.xlsx(fileName, "GenP", header = F)
-      #Assign variable names from first column, and then delete first column
-      row.names(GenParam) = GenParam[,1]
-      GenParam$X1 <- NULL
+      # 1. Load General Parameters
+      # Assign variable names from first column
+      GenParam <- openxlsx::read.xlsx(fileName, colNames = F, rowNames = T)
       loadXlsx = 1;    
     }
     

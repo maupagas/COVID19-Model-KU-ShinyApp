@@ -1,9 +1,3 @@
-# #################################
-# Dr Jorge Rodríguez R
-# Khalifa University
-# jorge.rodriguez@ku.ac.ae
-# #################################
-
 # SEE DEFINITION AND NOMENCLATURE AT THE BOTTOM
 # function dNi_dt = modelCOVID(t, stN, options, IntP, EpiP)
 

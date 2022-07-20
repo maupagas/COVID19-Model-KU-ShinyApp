@@ -5,14 +5,9 @@ library(ggplot2)
 library(gridExtra)
 library(cowplot)
 library(xlsx)
-library(dplyr)
 library(plyr)
+library(dplyr)
 library(reshape2)
-
-if (Sys.getenv("JAVA_HOME")!="")
-  Sys.setenv(JAVA_HOME="")
-library(rJava)
-
 
 source("loadParametersXlsx.R")
 source("newModelCOVID.R")
